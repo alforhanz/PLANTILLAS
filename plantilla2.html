@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,23 +18,38 @@
             <a href="#" class="brand-logo">Mi Proyecto</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><span class="material-symbols-outlined">menu</span></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#"><i class="material-symbols-outlined">home</i> Inicio</a></li>
+                <li><a href="#"><i class="material-symbols-outlined">info</i> Acerca de</a></li>
+                <li><a href="#"><i class="material-symbols-outlined">call</i> Contacto</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Menú lateral (hamburguesa) -->
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#"><i class="material-symbols-outlined">home</i> Inicio</a></li>
+        <li><a href="#"><i class="material-symbols-outlined">info</i> Acerca de</a></li>
+        <li><a href="#"><i class="material-symbols-outlined">call</i> Contacto</a></li>
     </ul>
     <!-- aqui estara el contenido de la pagina -->
     <div class="container">
         <h1>Bienvenido a mi sitio web</h1>
-        <p>Este es un ejemplo de página utilizando Materialize y Material Symbols.</p>
+        <p>Esta plantilla utiliza materialize para generar la apariencia del sitio web de manera mas sencilla utilizando .</p>
+        <p><b>/* Small only */</b><br>
+            @media screen and (max-width: 39.9375em) {} <br><br>
+            
+            <b>/* Medium and up */</b><br>
+            @media screen and (min-width: 40em) {}<br><br>
+            
+            <b>/* Medium only */</b><br>
+            @media screen and (min-width: 40em) and (max-width: 63.9375em) {}<br><br>
+            
+            <b>/* Large and up */</b><br>
+            @media screen and (min-width: 64em) {}<br><br>
+            
+            <b>/* Large only */</b><br>
+            @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+        </p>
     </div>
     <!-- Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
