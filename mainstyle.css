@@ -1,0 +1,81 @@
+/* Estilos para el header y la navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+/* Estilos para el footer */
+#site-footer {
+    background-color: #fff;
+    color: #070707;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.footer-menu a {
+    color: #0c0c0c;
+    text-decoration: navy;
+}
+
+.footer-menu a:hover {
+    color: #ddd;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #121212;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #1e22e0;
+}
