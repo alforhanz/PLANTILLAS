@@ -16,7 +16,6 @@ function crearEncabezado() {
     `;
 }
 
-
 // Función para generar el pie de página del sitio
 function crearFooter() {
     const footer = document.getElementById('site-footer');
@@ -36,7 +35,6 @@ function crearFooter() {
         </div>
     `;
 }
-
 // Llamada a la función para construir el pie de página al cargar la página
 window.onload = function() {
     crearEncabezado();
