@@ -1,5 +1,5 @@
 <?php
-$projectName = "QU4R3NTEC";
+$projectName = "Enigma-1";
 
 if (!is_dir($projectName)) {
     mkdir($projectName);

@@ -1,0 +1,65 @@
+body{
+    position: relative; 
+}
+
+.container{    
+        text-align: left;    
+}
+
+.grey-text{
+    text-align: right !important;
+}
+.payment-container{
+    text-align: right !important;
+}
+.Footer_footer-payment-methods__Qmd8c .payment-container {
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+    justify-content: flex-end;
+    
+}
+
+.carousel {
+    width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+/*social media*/
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.social-icons span {
+    display: inline-block;
+    width: 40px; /* Ancho del icono */
+    height: 40px; /* Alto del icono */
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.social-icons .facebook {
+    background-image: url('img/icons8-facebook-48.png');
+}
+
+.social-icons .whatsapp {
+    background-image: url('img/icons8-whatsapp-48.png');
+}
+
+.social-icons .instagram {
+    background-image: url('img/icons8-instagram-48.png');
+}
+
+.social-icons .linkedin {
+    background-image: url('img/icons8-linkedin-48.png');
+}
+
+.social-icons span:hover {
+    filter: brightness(1.2); /* Efecto al pasar el mouse */
+}
